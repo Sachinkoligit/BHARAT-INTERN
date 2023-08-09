@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+.container{
+    background-color: dimgrey;
+    padding: 20px;
+    border-radius: 9px;
+}
+h1{
+    color: whitesmoke;
+}
+#celcius, #fahrenheit, #kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+}
+input{
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+    border: none;
+}
+.icon{
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    background: rgb(63, 62, 62);
+    color: whitesmoke;
+    border-radius: 0 8px 8px 0;
+}
+button{
+    margin-top: 25px;
+    width: 20vh;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.button{
+    text-align: center;
+}
+.button button:hover{
+    background: black;
+    color:whitesmoke
+}
